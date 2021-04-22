@@ -22,6 +22,20 @@
             </script>
         </div>
 
+        <!-- test to see if this shows up -->
+        <div class="container ad">
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">
+                    Bought another domain... I need to finish projects first. 🤦‍♂️
+                </p>
+                &mdash; Andrew Jazbec (@ajzbc)<a
+                    href="https://twitter.com/ajzbc/status/1175865185514377216?ref_src=twsrc%5Etfw"
+                    >September 22, 2019</a
+                >
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
         <div class="container footer">
             <p>
                 👋
