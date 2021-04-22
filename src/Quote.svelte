@@ -1,6 +1,8 @@
 <script>
     import { fly } from "svelte/transition";
 
+    let tweet_url;
+
     async function getQuote() {
         const response = await fetch("https://api.kanye.rest");
         const text = (await response.json()).quote;
@@ -16,7 +18,6 @@
         quote = getQuote();
     }
 
-    let tweet_url;
     function tweet() {
         window.open(tweet_url);
     }
