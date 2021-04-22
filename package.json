@@ -1,8 +1,0 @@
-{
-    "name": "kanye-rest",
-    "version": "1.0.0",
-    "description": "A free REST API for random Kanye West quotes (Kanye as a Service)",
-    "main": "index.js",
-    "author": "Andrew Jazbec",
-    "license": "MIT"
-}
