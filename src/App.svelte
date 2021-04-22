@@ -17,7 +17,7 @@
             <script
                 async
                 type="text/javascript"
-                src="//cdn.carbonads.com/carbon.js?serve=CE7D5K7M&placement=kanyerest"
+                src="https://cdn.carbonads.com/carbon.js?serve=CE7D5K7M&placement=kanyerest"
                 id="_carbonads_js">
             </script>
         </div>
