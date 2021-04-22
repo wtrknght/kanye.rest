@@ -15,7 +15,7 @@
 
         <div class="container ad">
             <script
-                async
+                defer
                 type="text/javascript"
                 src="https://cdn.carbonads.com/carbon.js?serve=CE7D5K7M&placement=kanyerest"
                 id="_carbonads_js">
