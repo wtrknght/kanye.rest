@@ -3,7 +3,7 @@
 </script>
 
 <main>
-    <div class="card">
+    <div>
         <script
             async
             type="text/javascript"
@@ -12,10 +12,3 @@
         </script>
     </div>
 </main>
-
-<style>
-    div {
-        padding: 0;
-        /* min-height: 100px; */
-    }
-</style>

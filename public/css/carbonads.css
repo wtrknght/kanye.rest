@@ -5,6 +5,10 @@
 #carbonads {
     display: flex;
     z-index: 100;
+
+    background-color: hsl(0, 0%, 94%);
+    border: 1px solid hsl(0, 0%, 92%);
+    border-radius: 10px;
 }
 #carbonads a {
     color: inherit;
