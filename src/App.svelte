@@ -1,5 +1,7 @@
 <script>
     import Quote from "./Quote.svelte";
+    import Ad from "./Ad.svelte";
+    import List from "./List.svelte";
 </script>
 
 <main>
@@ -13,12 +15,11 @@
     </div>
 
     <div class="container ad">
-        <script
-            async
-            type="text/javascript"
-            src="https://cdn.carbonads.com/carbon.js?serve=CE7D5K7M&placement=kanyerest"
-            id="_carbonads_js">
-        </script>
+        <Ad />
+    </div>
+
+    <div class="container">
+        <List />
     </div>
 
     <div class="container center">
@@ -46,23 +47,20 @@
         text-align: center;
     }
 
-    .ad {
-        min-height: 100px;
-    }
-
     h2 {
         margin: 0.8rem 0;
     }
 
     h2 a,
     h2 a:hover {
-        color: var(--main-text);
+        color: var(--main);
         text-decoration: none;
     }
 
     span {
-        color: var(--sub-text);
+        color: var(--sub);
         font-size: 0.8rem;
+        font-weight: 400;
     }
 
     p {

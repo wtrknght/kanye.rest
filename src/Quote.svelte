@@ -31,7 +31,7 @@
         <button on:click={refresh}>🔄 refresh</button>
     </div>
 
-    <div class="quote">
+    <div class="quote card">
         {#await quote}
             <p>loading...</p>
         {:then data}
@@ -51,7 +51,6 @@
 
     .top {
         display: flex;
-        align-items: center;
         padding: 0.75rem 1rem;
     }
 
@@ -67,16 +66,11 @@
         background-color: transparent;
         font-family: inherit;
         font-size: 0.8rem;
+        font-weight: 500;
     }
 
     .quote {
-        padding: 1rem;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-        background-color: hsl(0, 0%, 96%);
-        border-radius: 10px;
         position: relative;
-        display: block;
-        overflow: hidden;
     }
 
     p {
@@ -86,10 +80,11 @@
     span {
         padding: 6px 8px;
         font-size: 0.8rem;
+        font-weight: 400;
         position: absolute;
         bottom: 0;
         right: 0;
-        color: var(--sub-text);
+        color: var(--sub);
         border-radius: 0 0 10px 0;
     }
 </style>
