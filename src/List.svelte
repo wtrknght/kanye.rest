@@ -1,14 +1,16 @@
 <script>
-    // https://raw.githubusercontent.com/ajzbc/kanye.rest/master/quotes.json
+    import { onMount } from "svelte";
 
     let quotes;
     let toggle = false;
 
-    fetch(`https://raw.githubusercontent.com/ajzbc/kanye.rest/master/quotes.json`)
-        .then((r) => r.json())
-        .then((data) => {
-            quotes = data.sort(() => Math.random() - 0.5);
-        });
+    onMount(() => {
+        fetch(`https://raw.githubusercontent.com/ajzbc/kanye.rest/master/quotes.json`)
+            .then((r) => r.json())
+            .then((data) => {
+                quotes = data.sort(() => Math.random() - 0.5);
+            });
+    });
 </script>
 
 <main>
