@@ -4,11 +4,7 @@
 }
 #carbonads {
     display: flex;
-    background-color: hsl(0, 0%, 96%);
     z-index: 100;
-
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    border-radius: 10px;
 }
 #carbonads a {
     color: inherit;
@@ -46,9 +42,10 @@
 #carbonads .carbon-poweredby {
     padding: 6px 8px;
     font-size: 0.8rem;
+    font-weight: 400;
     position: absolute;
     bottom: 0;
     right: 0;
-    color: var(--sub-text);
+    color: var(--sub);
     border-radius: 0 0 10px 0;
 }
