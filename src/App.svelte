@@ -25,7 +25,7 @@
     <div class="container center">
         <p>
             👋
-            <a href="https://twitter.com/ajzbc">@ajzbc</a>
+            <a href="https://twitter.com/andrewjazbec">@andrewjazbec</a>
         </p>
         <p>
             <a href="https://github.com/ajzbc/kanye.rest">
